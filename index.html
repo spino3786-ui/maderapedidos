@@ -1734,7 +1734,7 @@ document.addEventListener('fb-ready', function(){ setConn(navigator.onLine); });
 var _importCheckInterval = setInterval(function() {
   if(typeof catalogo !== 'undefined' && typeof window._setDoc !== 'undefined') {
     clearInterval(_importCheckInterval);
-    if(catalogo.length === 0) {
+    if(false) {
       document.getElementById('import-btn-wrap').style.display = 'block';
     }
   }
